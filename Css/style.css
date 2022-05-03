@@ -2,37 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .container {
+}
+
+.container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-  
-  .flex-grow {
+}
+
+.flex-grow {
     flex-grow: 1;
     overflow: hidden;
-  }
-  
-  .overflow-auto {
+}
+
+.overflow-auto {
     overflow: auto;
-  }
-  
-  .d-flex {
+}
+
+.d-flex {
     display: flex;
-  }
-  
-  .flex-column {
+}
+
+.flex-column {
     flex-direction: column;
-  }
-  
-  .bottom-bar {
+}
+
+.bottom-bar {
     flex-shrink: 0;
     padding: 1rem 0;
-  }
-  
-  .sidebar {
+}
+
+.sidebar {
     flex-shrink: 0;
     width: 250px;
     display: flex;
@@ -40,44 +40,79 @@
     background-color: #000000;
     padding: 1rem;
     color: #919496;
-  }
-  
-  .top-bar {
+}
+
+.top-bar {
     flex-shrink: 0;
     padding: 1rem 0;
     background-color: rgb(34, 35, 38);
     height: 85px;
-    color:#919496; ;
-  }
-  
-  .upgrade{
-      display: flex;
-      justify-content: end;
-      padding: .5rem;
-  }
+    color: #919496;
+    ;
+}
 
-  .btn{
-      border: 1px solid;
-      border-radius: 3rem 3rem;
-      padding: .5rem;
+.upgrade {
+    display: flex;
+    justify-content: end;
+    padding: .5rem;
+}
 
-  }
+.btn {
+    border: 1px solid;
+    border-radius: 3rem 3rem;
+    padding: .5rem;
 
-  .logo-icon{
-      padding-bottom: 2rem;
-  }
+}
 
-  .search{
-      padding-bottom: 2rem;
-  }
+.logo-icon {
+    padding-bottom: 2rem;
+}
 
-  .list{
-      list-style: none;
-    }
+.search {
+    padding-bottom: 2rem;
+}
 
-    .sidebar li{
-        margin-bottom: 1rem;
-    }
+.list {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    padding: 2rem;
+    display: block;
+    text-align: center;
+   
+}
+
+.link{
+    padding: .5rem;
+}
+
+.section{
+    padding: 1rem;
+}
+
+.row{
+    display: flex;
+    gap: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
-    
+.col-6{
+    flex-basis: calc(100% / 6);
+
+}
+
+.w-100{
+    width: 100%;
+}
+
+.description{
+    text-align: center;
+    padding: 1rem;
+}
