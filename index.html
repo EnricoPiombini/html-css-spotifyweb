@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/query.css">
 </head>
 
 <body>
 
     <!-- Contenitore con 100vh -->
     <div class="container">
-        <!-- Blocco sopra in grow con align-items stretch 
-      per forzare i figli ad occupare tutta l'altezza disponibile -->
+
         <div class="flex-grow d-flex">
             <!-- Sidebar con larghezza statica e shrink 0 -->
             <div class="sidebar">
@@ -59,19 +59,17 @@
 
             </div>
 
-            <!-- Contenitore a destra con il vero contenuto dell'app -->
+
             <div class="flex-grow d-flex flex-column">
-                <!-- barra in altro con pulsante upgrade -->
-                <div class="top-bar">
-                    <div class="upgrade">
-                        <a class="btn">EFFETTUA L'UPGRADE</a>
+
+                <div class="flex-grow overflow-auto">
+
+                    <div class="top-bar">
+                        <div class="upgrade">
+                            <a class="btn">EFFETTUA L'UPGRADE</a>
+                        </div>
                     </div>
 
-                </div>
-
-                <!-- contenuto che dovrà scorrere in verticale
-        Dovrà essere in flex-grow -->
-                <div class="flex-grow overflow-auto">
 
                     <div class="container-player">
 
@@ -86,7 +84,7 @@
 
                         <div class="section recently-played">
                             <div class="title">
-                                <h2>Recently played</h2>
+                                <h2 class="white-bold">Recently played</h2>
                             </div>
 
                             <div class="row">
@@ -98,11 +96,11 @@
                                         </div>
 
                                         <div class="description">
-                                            <div class="song-name">
+                                            <div class="song-name white-bold">
                                                 Heavy Metal
 
                                             </div>
-                                            <div class="song-subtitle">
+                                            <div class="song-subtitle grey">
                                                 Subtitle
 
                                             </div>
@@ -119,11 +117,11 @@
                                         </div>
 
                                         <div class="description">
-                                            <div class="song-name">
-                                                Heavy Metal
+                                            <div class="song-name white-bold">
+                                                Stranger Things
 
                                             </div>
-                                            <div class="song-subtitle">
+                                            <div class="song-subtitle grey">
                                                 Subtitle
 
                                             </div>
@@ -139,32 +137,11 @@
                                         </div>
 
                                         <div class="description">
-                                            <div class="song-name">
-                                                Heavy Metal
+                                            <div class="song-name white-bold">
+                                                A quiet place
 
                                             </div>
-                                            <div class="song-subtitle">
-                                                Subtitle
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="col-6">
-                                    <div class="card">
-                                        <div class="img">
-                                            <img src="img/metal_lifting.jpg" alt="" class="w-100">
-                                        </div>
-
-                                        <div class="description">
-                                            <div class="song-name">
-                                                Heavy Metal
-
-                                            </div>
-                                            <div class="song-subtitle">
+                                            <div class="song-subtitle grey">
                                                 Subtitle
 
                                             </div>
@@ -181,11 +158,11 @@
                                         </div>
 
                                         <div class="description">
-                                            <div class="song-name">
-                                                Heavy Metal
+                                            <div class="song-name white-bold">
+                                                Split
 
                                             </div>
-                                            <div class="song-subtitle">
+                                            <div class="song-subtitle grey">
                                                 Subtitle
 
                                             </div>
@@ -202,11 +179,32 @@
                                         </div>
 
                                         <div class="description">
-                                            <div class="song-name">
-                                                Heavy Metal
+                                            <div class="song-name white-bold">
+                                                A cure for wellness
 
                                             </div>
-                                            <div class="song-subtitle">
+                                            <div class="song-subtitle grey">
+                                                Subtitle
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="card">
+                                        <div class="img">
+                                            <img src="img/metal_lifting.jpg" alt="" class="w-100">
+                                        </div>
+
+                                        <div class="description">
+                                            <div class="song-name white-bold">
+                                                Sinister
+
+                                            </div>
+                                            <div class="song-subtitle grey">
                                                 Subtitle
 
                                             </div>
@@ -230,7 +228,10 @@
 
                         <div class="section">
                             <div class="title">
-                                <h2>Creato per John Doe</h2>
+                                <h2 class="white-bold pad-1rem">Creato per John Doe</h2>
+                                <div class="subtitle grey">
+                                    Più ascolti, più accurati saranno i suggerimenti
+                                </div>
                             </div>
 
                             <div class="row">
@@ -334,15 +335,49 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-                    <!-- Blocco sotto con menu play e shrink 0 -->
-                    <div class="bottom-bar"></div>
                 </div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer>
+            <div class="bottom-bar">
+                <div class="d-flex">
+                    <div class="left-side d-flex">
+                        <div class="img-bottom">
+                            <img src="img/sinister.jpeg" alt="" class="w-100">
+                        </div>
+                        <div class="icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="center-content">
+
+                    </div>
+
+                    <div class="right-content"></div>
+
+                </div>
+
+        </footer>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
 
 </body>
 

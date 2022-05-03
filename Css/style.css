@@ -30,6 +30,7 @@
 .bottom-bar {
     flex-shrink: 0;
     padding: 1rem 0;
+    height: 70px;
 }
 
 .sidebar {
@@ -127,4 +128,19 @@
 .container-player{
     background-color: rgb(34, 35, 38);
     
+}
+
+.white-bold{
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.grey{
+    color: #919496;
+
+}
+
+.img-bottom{
+    max-width: 70px;
 }
