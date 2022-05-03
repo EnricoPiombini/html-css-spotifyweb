@@ -45,7 +45,8 @@
 .top-bar {
     flex-shrink: 0;
     padding: 1rem 0;
-    background-color: rgb(34, 35, 38);
+    
+    background-color: #1a1919;
     height: 85px;
     color: #919496;
     ;
@@ -89,6 +90,7 @@
 
 .link{
     padding: .5rem;
+    color: #919496;
 }
 
 .section{
@@ -115,4 +117,14 @@
 .description{
     text-align: center;
     padding: 1rem;
+}
+
+.circle-img{
+    border-radius: 50%;
+
+}
+
+.container-player{
+    background-color: rgb(34, 35, 38);
+    
 }
