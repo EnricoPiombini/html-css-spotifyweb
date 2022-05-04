@@ -12,7 +12,7 @@
 
 .flex-grow {
     flex-grow: 1;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .overflow-auto {
@@ -29,8 +29,9 @@
 
 .bottom-bar {
     flex-shrink: 0;
-    padding: 1rem 0;
-    height: 70px;
+    padding: 1rem 1rem;
+    min-height: 70px;
+    background-color: #282222;
 }
 
 .sidebar {
@@ -76,6 +77,8 @@
 
 .list {
     list-style: none;
+    overflow: auto;
+    height: 100%;
 }
 
 .sidebar li {
@@ -142,5 +145,36 @@
 }
 
 .img-bottom{
-    max-width: 70px;
+    max-width: 50px;
 }
+
+.playlist-title{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-side{
+      align-items: center;
+  }
+
+  .footer-bar{
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .progress-bar {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 75%;
+  }
+
+  .center-content{
+    width: 40%;
+    align-content: stretch;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
