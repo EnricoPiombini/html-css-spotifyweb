@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
 
     height: 100vh;
@@ -57,7 +61,7 @@
     flex-shrink: 0;
     padding: 1rem 1rem;
     min-height: 70px;
-    background-color: #282222;
+    background-color: #212121;
 }
 
 .sidebar {
