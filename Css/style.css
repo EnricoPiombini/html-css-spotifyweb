@@ -43,7 +43,6 @@ body {
 .w-20 {
     width: 20px;
 
-
 }
 
 .d-flex {
@@ -115,13 +114,12 @@ body {
 .margin-top1 {
     margin-top: 1rem;
 
-
 }
 
 .hl {
     width: 100%;
     border: 1px solid gray;
-    margin-top: 1rem;
+    margin: .5rem;
 }
 
 .sidebar li {
@@ -218,8 +216,6 @@ body {
 .small-bar{
     width: 35%;
 }
-
-
 
 .center-content {
     width: 40%;
